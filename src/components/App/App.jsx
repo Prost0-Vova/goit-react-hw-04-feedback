@@ -53,7 +53,7 @@ export default function App () {
               positivePercentage={countPositiveFeedbackPercentage()}
             />
           ) : (
-            <Notification message="There is no feedback" />
+            <Notification message="There is no feedback " />
           )}
       </Section>
     );
